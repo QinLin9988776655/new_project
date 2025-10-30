@@ -1,0 +1,135 @@
+.cardContainer {
+  border-radius: 5px;
+  margin: 10px 0 30px;
+  :global {
+    .ant-card-body {
+      padding: 13px;
+    }
+    .ant-col {
+      border-right: 1px solid #e5e7eb;
+    }
+
+    .ant-col:last-child {
+      border-right: none;
+    }
+  }
+}
+
+// 标签列表样式
+.labelContainer {
+  .level1 {
+  }
+
+  // 一级标签
+
+  .level2 {
+  }
+
+  // 二级标签
+}
+
+// 循环公用样式 表头部分可优化拆解为组件
+.card {
+  .box1 {
+    .theme {
+      display: flex;
+      font-size: 12px;
+      padding: 4px 0 0 2px;
+    }
+
+    .relevantPersonnel {
+      display: flex;
+      font-size: 12px;
+      margin-top: 8px;
+
+      .personnelItem {
+        display: flex;
+        align-items: center; /* 垂直居中对齐 */
+        gap: 8px; /* 文字和组件之间的间距 */
+        margin-right: 20px;
+      }
+
+      .title {
+        color: #ccc;
+      }
+    }
+  }
+  .box2 {
+    text-align: center;
+    padding-top: 4px;
+  }
+  .box3 {
+    text-align: center;
+    /* line-height: 20px; */
+    padding-top: 25px;
+  }
+
+  .box4 {
+    text-align: right;
+    /* line-height: 20px; */
+    padding-top: 20px;
+  }
+}
+
+.cardContainer1 {
+  border-left: 6px solid #52c41a;
+}
+
+.cardContainer2 {
+  border-left: 6px solid #6078ff;
+}
+
+.cardContainer3 {
+  border-left: 6px solid #e3b016;
+}
+
+.btnStyle1 {
+  background-color: #2b4096;
+  color: #fff;
+  border-radius: 2px;
+}
+.btnStyle2 {
+  background-color: #fff;
+  color: #2b4096;
+  border-color: #2b4096;
+  border-radius: 2px;
+}
+
+// 折叠框对应样式
+.collapseContainer {
+  border-radius: 5px;
+  margin: 10px 0 30px;
+  background-color: #fff;
+  border-left: 6px solid #ccc;
+  :global {
+    .ant-card-body {
+      padding: 13px;
+    }
+    .ant-col {
+      border-right: 1px solid #e5e7eb;
+    }
+
+    .ant-col:last-child {
+      border-right: none;
+    }
+
+    .ant-collapse-arrow {
+      padding-top: 50px;
+    }
+
+    .ant-row {
+      border-bottom: 1px solid #e5e7eb;
+    }
+  }
+}
+
+.level1 {
+  background-color: #e6e8f2;
+  color: #a0a9d0;
+}
+
+.level2 {
+  background-color: #f4d7c3;
+  color: #d29d76;
+  border-radius: 10px;
+}
